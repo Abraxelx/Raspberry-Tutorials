@@ -1,4 +1,3 @@
-#blink.py
 import time
 import RPi.GPIO as GPIO
 

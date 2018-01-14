@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 LED = 4
-PTM = 17
+PTM = 17 ##Potansiyometre Bacağı
 GPIO.setup(LED,GPIO.OUT)
 GPIO.setup(PTM,GPIO.IN)
 
